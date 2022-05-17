@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alan Browning Portfolio</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">     
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>      
+  </head>
+  
+  <body class="size-1140">
+  	<!-- HEADER -->
+    <header role="banner" class="position-absolute">    
+      <!-- Top Navigation -->
+      <nav class="background-transparent background-transparent-hightlight full-width sticky">
+        <div class="s-12 l-2" valign="center">
+            <br>
+            <a href="index.html">
+            <!-- Logo White Version -->
+            <img class="logo-white" src="img/Name-Light.png" alt="">
+            <!-- Logo Dark Version -->
+            <img class="logo-dark" src="img/Name-Dark.png" alt="">
+            </a>
+       </div>
+        <div class="top-nav s-12 l-10">
+          
+          <ul class="right chevron">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a>My Portfolio</a>
+              <ul>
+                <li><a href="portfolio.html">Overview</a></li>
+                <li><a>Professional Projects</a>
+                  <ul>
+                    <li><a>Service 1 A</a></li>
+                    <li><a>Service 1 B</a></li>
+                  </ul>
+                </li>
+                <li><a>Personal Projects</a>
+                  <ul>
+                    <li><a>Service 1 A</a></li>
+                    <li><a>Service 1 B</a></li>
+                  </ul>
+                </li>
+                  <li><a>Academic Coursework</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#featured">Featured Projects</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- MAIN -->
+    <main role="main">
+      <!-- Content -->
+      <article>
+        <header class="section background-dark">
+          <div class="line">        
+            <h1 class="text-white margin-top-bottom-40 text-size-60 text-line-height-1">CFD Pipe Flow</h1>
+            <p class="margin-bottom-0 text-size-16">Academic Project at the University of Pittsburgh</p>
+          </div>  
+        </header>
+        <section class="section background-white" width>
+          <div class="line">
+            <h2 class="text-size-40 margin-bottom-30">Background</h2>
+            <hr class="break-small background-primary margin-bottom-30">
+            <p class="margin-bottom-40"><font size="3">
+             This project was completed as a part of my applied fluid dynamics course at the University of Pittsburgh. The goal of this project was to model fluid flow using Ansys Fluent.
+            </font></p>
+              <hr>
+              <h2 class="text-size-40 margin-bottom-30">Pictures</h2>
+              <hr class="break-small background-primary margin-bottom-30">
+              <img src="img/Streamline2.PNG">
+              <hr>
+              <h2 class="text-size-40 margin-bottom-30">Details</h2>
+            <hr class="break-small background-primary margin-bottom-30">
+            <p class="margin-bottom-40"><font size="3">
+                This project consisted entirely on CFD simulations to accurately represent pipe flow. Using basic fluid mechanics, you could determine the fully developed velocity profile based off of a few properties. This project sought to computationally create this velocity profile as well as determine the entrance lengths based on the Reynold's number. The flow was pressure driven, and it was assumed to have no thermal effects.
+                <br><br>
+                One of the most important factors in a CFD is the mesh. The mesh can entirely change the results of the data, so it is important to create a quality mesh. For standard pipe flow, the mesh does not have to be super complicated, but it still needed to have sufficient sizing and wall layers. A picture of the generated mesh is shown below. <br><br>
+                <center><img src="img/Mesh.png"></center>
+                <br><br>
+                The second factor that needed to be considered was the boundary conditions and material properties. These were given, so no additional work was necessary.
+                <br><br>
+                The third factor that was considered were the residuals. If too high, it could converge early and yield inaccurate results. An appropriate ammount was selected at 0.05 [mm/s]. Using these three considerations, the analysis was complete and the results are shown below. The velocities profiles were plotted for a Reynold's number of 50. The entrance lengths were also recorded based on a changing Reynold's number. From the plots, it is clear that the analysis was fairly accurate compared to the hand calculations.
+                <br><br>
+                <center><img src="img/Velocity.PNG"><br><br>
+                <img src="img/EntranceLength.PNG"></center>
+                <br><br>
+                Click <u><a href="Browning_CFD_Project.docx">here</a></u> to check out the full report.
+                <br><br>
+                Click <u><a href="portfolio.html">here</a></u> to return to the portfolio page.
+            </font></p>
+          </div>
+        </section> 
+      </article>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+      <!-- Contact -->
+        <a name="contact"></a>
+      <div class="background-primary padding text-center">
+        <p class="h1">Contact Me!</p>                                                                        
+      </div>
+      
+      <!-- Main Footer -->
+      <section class="background-dark full-width">
+        <!-- Map -->
+        <div class="s-12 m-12 l-6 margin-m-bottom-2x">
+          <div class="s-12 grayscale center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6164057.555802706!2d-82.0942993593706!3d41.029768537569666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882d80261e32e589%3A0xc24621475022b43d!2sPennsylvania!5e0!3m2!1sen!2sus!4v1612126626980!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;"></iframe>
+            
+          </div>
+        </div>
+        
+        <!-- Collumn 2 -->
+        <div class="s-12 m-12 l-6 margin-m-bottom-2x">
+          <div class="padding-2x">
+            <div class="line">              
+              <div class="float-left">
+                  <i class="icon-sli-location-pin text-primary icon3x"></i>
+                </div>
+                <div class="margin-left-70 margin-bottom-60 margin-top-30">
+                  <h3 class="margin-bottom-0">Location</h3>
+                  <p>Pennsylvania, United States<br>
+                     * Willing to relocate *
+                  </p>               
+                </div>
+                <div class="float-left">
+                  <i class="icon-sli-envelope text-primary icon3x"></i>
+                </div>
+                <div class="margin-left-70 margin-bottom-80">
+                  <h3 class="margin-bottom-0">E-mail</h3>
+                  <p>alb409@pitt.edu
+                  </p>              
+                </div>
+                <div class="float-left">
+                  <i class="icon-sli-phone text-primary icon3x"></i>
+                </div>
+                <div class="margin-left-70">
+                  <h3 class="margin-bottom-0">Phone Number</h3>
+                  <p>(215) 512 2266
+                  </p>             
+                </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+      <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);">
+      
+      <!-- Bottom Footer -->
+      <section class="padding background-dark full-width">
+        <div class="s-12 l-6">
+          <p class="text-size-12">Copyright 2019, Vision Design - graphic zoo</p>
+          <p class="text-size-12">All images have been purchased from Bigstock. Do not use the images in your website.</p>
+        </div>
+        <div class="s-12 l-6">
+          <a class="right text-size-12" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding<br> by Responsee Team</a>
+        </div>
+      </section>
+    </footer>
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script>
+  </body>
+</html>
