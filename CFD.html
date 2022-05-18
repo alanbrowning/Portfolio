@@ -40,11 +40,11 @@
                 <li><a href="portfolio.html">Overview</a></li>
                 <li><a>Professional Projects</a>
                   <ul>
-                    <li><a href="CovHeadlamp.html">Covestro Headlamp</a></li>
+                    <li><a href="Vita3U.html">Vita 3U VPX Module</a></li>
+                    <li><a href="Electroplating.html">Electroplating Agitation Device</a></li>
+                    <li><a href="CovHeadlamp.html">Covestro Demo Headlamp</a></li>
                     <li><a href="CovBuick.html">Buick Headlamp</a></li>
-                    <li><a href="CovNasa.html">NASA Space Suit</a></li>
                     <li><a href="CovFord.html">Ford Fog Light</a></li>
-                    <li><a href="ThermalStake.html">Thermal Staking</a></li>
                     <li><a href="Rethink.html">Rethink the Rink</a></li>
                     <li><a href="CovReflector.html">Integrated Reflector</a></li>
                   </ul>
@@ -52,9 +52,8 @@
                 <li><a>Personal Projects</a>
                   <ul>
                     <li><a href="SOAR.html">NASA Student Launch</a></li>
+                    <li><a href="SeniorDesign.html">Argo AI, Capstone</a></li>
                     <li><a href="HPVC.html">ASME HPVC</a></li>
-                    <li><a href="portfolio.html#RC">RC Car</a></li>
-                    <li><a href="CovHeadlamp.html">Argo AI, Capstone</a></li>
                     <li><a href="CFD.html">CFD Pipe Flow</a></li>
                     <li><a href="iphone.html">iPhone Screen Strength</a></li>
                     <li><a href="heat.html">AC Unit Efficiency</a></li>
@@ -65,8 +64,8 @@
             </li>
             <li><a href="index.html#about">About</a></li>
             <li><a href="index.html#featured">Featured Projects</a></li>
-            <li><a href="index.html#skills">Skills</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <!--<li><a href="#skills">Skills</a></li>-->
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -84,35 +83,30 @@
         </header>
         <section class="section background-white" width>
           <div class="line">
-            <h2 class="text-size-40 margin-bottom-30">Background</h2>
-            <hr class="break-small background-primary margin-bottom-30">
-            <p class="margin-bottom-40"><font size="3">
-             This project was completed as a part of my applied fluid dynamics course at the University of Pittsburgh. The goal of this project was to model fluid flow using Ansys Fluent.
-            </font></p>
-              <hr>
-              <h2 class="text-size-40 margin-bottom-30">Pictures</h2>
-              <hr class="break-small background-primary margin-bottom-30">
-              <img src="img/Streamline2.PNG">
-              <hr>
               <h2 class="text-size-40 margin-bottom-30">Details</h2>
             <hr class="break-small background-primary margin-bottom-30">
             <p class="margin-bottom-40"><font size="3">
-                This project consisted entirely on CFD simulations to accurately represent pipe flow. Using basic fluid mechanics, you could determine the fully developed velocity profile based off of a few properties. This project sought to computationally create this velocity profile as well as determine the entrance lengths based on the Reynold's number. The flow was pressure driven, and it was assumed to have no thermal effects.
+                This project was completed as a part of my applied fluid dynamics course at the University of Pittsburgh. The goal of the project was to teach me how to model fluid flow using Ansys Fluent. Using basic fluid mechanics, you could determine a fully developed velocity profile based off of a few properties. This project sought to computationally create this velocity profile as well as determine the entrance lengths based on the Reynold's number. The flow was pressure driven, and it was assumed to have no thermal effects.
                 <br><br>
                 One of the most important factors in a CFD is the mesh. The mesh can entirely change the results of the data, so it is important to create a quality mesh. For standard pipe flow, the mesh does not have to be super complicated, but it still needed to have sufficient sizing and wall layers. A picture of the generated mesh is shown below. <br><br>
                 <center><img src="img/Mesh.png"></center>
                 <br><br>
                 The second factor that needed to be considered was the boundary conditions and material properties. These were given, so no additional work was necessary.
                 <br><br>
-                The third factor that was considered were the residuals. If too high, it could converge early and yield inaccurate results. An appropriate ammount was selected at 0.05 [mm/s]. Using these three considerations, the analysis was complete and the results are shown below. The velocities profiles were plotted for a Reynold's number of 50. The entrance lengths were also recorded based on a changing Reynold's number. From the plots, it is clear that the analysis was fairly accurate compared to the hand calculations.
+                The third factor that was considered were the residuals. If too high, it could converge early and yield inaccurate results. An appropriate amount was selected at 0.05 [mm/s]. Using these three considerations, the analysis was complete and the results are shown below. The velocities profiles were plotted for a Reynold's number of 50. The entrance lengths were also recorded based on a changing Reynold's number. From the plots, it is clear that the analysis was fairly accurate compared to the hand calculations.
                 <br><br>
                 <center><img src="img/Velocity.PNG"><br><br>
                 <img src="img/EntranceLength.PNG"></center>
                 <br><br>
                 Click <u><a href="Browning_CFD_Project.docx">here</a></u> to check out the full report.
                 <br><br>
-                Click <u><a href="portfolio.html">here</a></u> to return to the portfolio page.
             </font></p>
+                <h2 class="text-size-40 margin-bottom-30">Pictures</h2>
+                <hr class="break-small background-primary margin-bottom-30">
+              <center>
+                <img src="img/Streamline2.PNG">
+                  <p class="margin-bottom-40"><font size="3">Streamlines of the Flow Velocity</font></p>
+                  </center>
           </div>
         </section> 
       </article>
@@ -123,7 +117,7 @@
       <!-- Contact -->
         <a name="contact"></a>
       <div class="background-primary padding text-center">
-        <p class="h1">Contact Me!</p>                                                                        
+        <p class="h1">Contact</p>                                                                        
       </div>
       
       <!-- Main Footer -->

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alan Browning - Portfolio</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">     
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+      
+  </head>
+  
+  <body class="size-1140">
+    <!-- HEADER -->
+    <header role="banner" class="position-absolute">    
+      <!-- Top Navigation -->
+      <nav class="background-transparent background-transparent-hightlight full-width sticky">
+        <div class="s-12 l-2">
+            <br>
+            <a href="index.html#home">
+            <!-- Logo White Version -->
+            <img class="logo-white" src="img/Name-Light.png" alt="">
+            <!-- Logo Dark Version -->
+            <img class="logo-dark" src="img/Name-Dark.png" alt="">
+            </a>
+       </div>
+        <div class="top-nav s-12 l-10">
+          
+          <ul class="right chevron">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a>My Portfolio</a>
+              <ul>
+                <li><a href="portfolio.html">Overview</a></li>
+                <li><a>Professional Projects</a>
+                  <ul>
+                    <li><a href="Vita3U.html">Vita 3U VPX Module</a></li>
+                    <li><a href="Electroplating.html">Electroplating Agitation Device</a></li>
+                    <li><a href="CovHeadlamp.html">Covestro Demo Headlamp</a></li>
+                    <li><a href="CovBuick.html">Buick Headlamp</a></li>
+                    <li><a href="CovFord.html">Ford Fog Light</a></li>
+                    <li><a href="Rethink.html">Rethink the Rink</a></li>
+                    <li><a href="CovReflector.html">Integrated Reflector</a></li>
+                  </ul>
+                </li>
+                <li><a>Personal Projects</a>
+                  <ul>
+                    <li><a href="SOAR.html">NASA Student Launch</a></li>
+                    <li><a href="SeniorDesign.html">Argo AI, Capstone</a></li>
+                    <li><a href="HPVC.html">ASME HPVC</a></li>
+                    <li><a href="CFD.html">CFD Pipe Flow</a></li>
+                    <li><a href="iphone.html">iPhone Screen Strength</a></li>
+                    <li><a href="heat.html">AC Unit Efficiency</a></li>
+                  </ul>
+                </li>
+                  <li><a href="portfolio.html#Academics">Academic Coursework</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#featured">Featured Projects</a></li>
+            <!--<li><a href="#skills">Skills</a></li>-->
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- MAIN -->
+    <main role="main">
+      <!-- Content -->
+      <article>
+        <header class="section background-dark">
+          <div class="line">        
+            <h1 class="text-white margin-top-bottom-40 text-size-60 text-line-height-1">Optical Sensor Cleaning Testbench</h1>
+            <p class="margin-bottom-0 text-size-16">Senior Design Project Completed in Collaboration with Argo AI</p>
+          </div>  
+        </header>
+        <section class="section background-white" width>
+          <div class="line">
+            <h2 class="text-size-40 margin-bottom-30">Details</h2>
+            <hr class="break-small background-primary margin-bottom-30">
+            <p class="margin-bottom-40"><font size="3">
+             This project was completed during the final semester of my senior year (Spring 2021) at the University of Pittsburgh. A small team and I worked in collaboration with Argo AI.
+             <br><br>
+             Argo AI is a tech company that specializes in the development of autonomous vehicles. They work with both the advanced control algorithms as well as the physical hardware used to collect data about the car’s surroundings. Argo AI is constantly pushing to develop a safer and more reliable autonomous vehicle. One of the ways that they aim to do so is by ensuring reliable sensor functionality. In particular, Argo AI was seeking to optimize cleaning techniques for different types of optical sensors. To do so, they needed a robust test setup which would allow them to evaluate cleaning techniques, such as changes in fluid solution, pressure, angle, etc. My group helped solve this problem by designing a test bench which could accommodate different types of sensors and allow for variations in cleaning techniques. 
+             <br><br>
+             The test bench consisted of a adjustable 80/20 frame, with flexible nozzles attached. The adjustability of the frame allowed for the testing of sensors as big as ~12x12x16", and as small as ~2x2x2". The sensor was held by 2 steel beams that extended through the middle of the frame. The adjustable nozzles then were positioned around the sensor to test the effect of position/angles on the efficacy of cleaning. The nozzles were connected back to a pump system controlled via a microcontroller. We were able to configure the microcontroller to produce a PWM signal, which altered the pump pressure. This feature allowed us to control the velocity/pressure of the cleaning fluid.
+             <br><br>
+             We analyzed our design to evaluate risk in yielding and cost. A FMEA analysis was conducted to predict modes in which we could possibly break the test bench. Our main concerns included failure in the nozzle brackets and sensor mounting beam. We performed bending calculations for the beam, and a finite element analyze on the nozzle bracket. We found a high factor of safety for our design. For cost, we had a budget of $2,000 for each test bench. We were able to reduce our preliminary cost analyse of ~$1,900 to around ~$1,550 by increasing the ease of machining and replacing expensive parts.
+             <br><br>
+             Our most important goal was to create a highly adjustable design, while keeping the precision needed to run successful tests. We were successful in accomplishing this goal, as well as in creating a cost savings compared to initial targets. At the end of the term, we pitched our final design and prototype to Argo AI, and it was accepted.
+             <br><br>
+             You can find CAD of the project <u><a href="Total_Assembly_4_20_21.zip">here</a></u>.
+             <br><br>
+             You can find our final presentation <u><a href="4.16.21_ArgoAI_Final_Presentation.pptx">here</a></u>.
+            </font>
+            </p>
+              <hr>
+              <h2 class="text-size-40 margin-bottom-30">Pictures</h2>
+              <hr class="break-small background-primary margin-bottom-30">
+              <center><img src="img/ArgoAssembly.png">
+              <br><p class="margin-bottom-40"><font size="3">Our Total Mechanical Assembly Shown in Solidworks</font></p>
+              <br><img src="img/SenDesBreadboard.jpg">
+              <br><p class="margin-bottom-40"><font size="3">The Breadboard Used For Pump Pressure Control</font></p>
+              <img src="img/SenDesSchematic.png">
+              <br><p class="margin-bottom-40"><font size="3">Our Digital Control Schematic</font></p>
+              <br><img src="img/PWM.gif">
+              <br><p class="margin-bottom-40"><font size="3">PWM Pump Testing (keep an eye on the pressure gauge)</font></p>
+              </center>
+          </div>
+        </section> 
+      </article>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+      <!-- Contact -->
+        <a name="contact"></a>
+      <div class="background-primary padding text-center">
+        <p class="h1">Contact</p>                                                                        
+      </div>
+      
+      <!-- Main Footer -->
+      <section class="background-dark full-width">
+        <!-- Map -->
+        <div class="s-12 m-12 l-6 margin-m-bottom-2x">
+          <div class="s-12 grayscale center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6164057.555802706!2d-82.0942993593706!3d41.029768537569666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882d80261e32e589%3A0xc24621475022b43d!2sPennsylvania!5e0!3m2!1sen!2sus!4v1612126626980!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;"></iframe>
+            
+          </div>
+        </div>
+        
+        <!-- Collumn 2 -->
+        <div class="s-12 m-12 l-6 margin-m-bottom-2x">
+          <div class="padding-2x">
+            <div class="line">              
+              <div class="float-left">
+                  <i class="icon-sli-location-pin text-primary icon3x"></i>
+                </div>
+                <div class="margin-left-70 margin-bottom-60 margin-top-30">
+                  <h3 class="margin-bottom-0">Location</h3>
+                  <p>Pennsylvania, United States<br>
+                     * Willing to relocate *
+                  </p>               
+                </div>
+                <div class="float-left">
+                  <i class="icon-sli-envelope text-primary icon3x"></i>
+                </div>
+                <div class="margin-left-70 margin-bottom-80">
+                  <h3 class="margin-bottom-0">E-mail</h3>
+                  <p>alb409@pitt.edu
+                  </p>              
+                </div>
+                <div class="float-left">
+                  <i class="icon-sli-phone text-primary icon3x"></i>
+                </div>
+                <div class="margin-left-70">
+                  <h3 class="margin-bottom-0">Phone Number</h3>
+                  <p>(215) 512 2266
+                  </p>             
+                </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+      <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);">
+      
+      <!-- Bottom Footer -->
+      <section class="padding background-dark full-width">
+        <div class="s-12 l-6">
+          <p>Alan Browning</p>
+        </div>
+        <div class="s-12 l-6">
+          <a class="right text-size-12" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding<br> by Responsee Team</a>
+        </div>
+      </section>
+    </footer>
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script>
+  </body>
+</html>

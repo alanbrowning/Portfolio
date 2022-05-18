@@ -40,11 +40,11 @@
                 <li><a href="portfolio.html">Overview</a></li>
                 <li><a>Professional Projects</a>
                   <ul>
-                    <li><a href="CovHeadlamp.html">Covestro Headlamp</a></li>
+                    <li><a href="Vita3U.html">Vita 3U VPX Module</a></li>
+                    <li><a href="Electroplating.html">Electroplating Agitation Device</a></li>
+                    <li><a href="CovHeadlamp.html">Covestro Demo Headlamp</a></li>
                     <li><a href="CovBuick.html">Buick Headlamp</a></li>
-                    <li><a href="CovNasa.html">NASA Space Suit</a></li>
                     <li><a href="CovFord.html">Ford Fog Light</a></li>
-                    <li><a href="ThermalStake.html">Thermal Staking</a></li>
                     <li><a href="Rethink.html">Rethink the Rink</a></li>
                     <li><a href="CovReflector.html">Integrated Reflector</a></li>
                   </ul>
@@ -52,9 +52,8 @@
                 <li><a>Personal Projects</a>
                   <ul>
                     <li><a href="SOAR.html">NASA Student Launch</a></li>
+                    <li><a href="SeniorDesign.html">Argo AI, Capstone</a></li>
                     <li><a href="HPVC.html">ASME HPVC</a></li>
-                    <li><a href="portfolio.html#RC">RC Car</a></li>
-                    <li><a href="CovHeadlamp.html">Argo AI, Capstone</a></li>
                     <li><a href="CFD.html">CFD Pipe Flow</a></li>
                     <li><a href="iphone.html">iPhone Screen Strength</a></li>
                     <li><a href="heat.html">AC Unit Efficiency</a></li>
@@ -65,8 +64,8 @@
             </li>
             <li><a href="index.html#about">About</a></li>
             <li><a href="index.html#featured">Featured Projects</a></li>
-            <li><a href="index.html#skills">Skills</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <!--<li><a href="#skills">Skills</a></li>-->
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -84,25 +83,20 @@
         </header>
         <section class="section background-white" width>
           <div class="line">
-            <h2 class="text-size-40 margin-bottom-30">Background</h2>
+            <h2 class="text-size-40 margin-bottom-30">Details</h2>
             <hr class="break-small background-primary margin-bottom-30">
             <p class="margin-bottom-40"><font size="3">
-             This project was completed in my second co-op rotation at Covestro LLC. Covestro specializes in polymers, and I worked in the business unit tailored specifically to polycarbonates. In this business unit, I worked under the application development team to analyze the viability of polycarbonates within new applications. This project is really two separate assemblies, but grouped as one project. First, I helped in implement polycarbonate into the fog light heatsink. Second, I implemented polycarbonate into a mounting bracket (also served as a heatsink) for the high and low beams.
+             This project was completed in my second co-op rotation at Covestro LLC. This project is really two separate assemblies, but grouped as one project. First, I helped in implement polycarbonate into the fog light heatsink. Second, I implemented polycarbonate into a mounting bracket (also served as a heatsink) for the high and low beams.
+             <br><br>
+             For the first part of this project, I analyzed the fog light. Previously, the housing was made of aluminum. In an attempt to reduce weight, complexity, and costs, I analyzed the effects of switching materials to thermally conductive polycarbonate. First, I performed a thermal analysis to ensure the LEDs remained at an optimal temperature. Second, I performed a vibrational analysis to ensure the component would not fail due to fatigue. This vibrational analysis included both a modal (1st mode) analysis as well as a power-spectral-density (PSD) analysis. Third, I performed a structural analysis to ensure failure would not occur when switching out lenses. After verification of these analysis, the design was accepted, and is currently in production within certain Ford trucks.
+             <br><br>
+             The second part of this project consists of a fairly similar process, just regarding a different assembly. The high beam mounting bracket was also determined to be a location where polycarbonate would be desirable. I performed a thermal, structural, and vibrational analysis similar to before. However, the intensity of the high-beam was substantially greater than the fog lamp, so considerable design changes were necessary. Using CFD, I was able to successfully redesign the bracket to better shed heat in order to meet the desired criteria. However, this added additional weight. I performed a topological optimization to identify locations of unnecessary mass. Using this analysis, the design was changed in order to satisfy the vibrational and thermal requirements, while as reducing weight. The results were reported, and the project is still on-going.
             </font></p>
               <hr>
               <h2 class="text-size-40 margin-bottom-30">Pictures</h2>
               <hr class="break-small background-primary margin-bottom-30">
-              <p><font size="3">Unfortunately, this project is on-going, so pictures and results are not available to be shared.</font></p>
-              <hr>
-              <h2 class="text-size-40 margin-bottom-30">Details</h2>
-            <hr class="break-small background-primary margin-bottom-30">
-            <p class="margin-bottom-40"><font size="3">
-                For the first part of this project, I analyzed the fog light. Previously, the housing was made of aluminum. In an attempt to reduce weight, complexity, and costs, I analyzed the effects of switching materials to thermally conductive polycarbonate. First, I performed a thermal analysis to ensure the LEDs remained at an optimal temperature. Second, I performed a vibrational analysis to ensure the component would not fail due to fatigue. This vibrational analysis included both a modal (1st mode) analysis as well as a power-spectral-density (PSD) analysis. Third, I performed a structural analysis to ensure failure would not occur when switching out lenses. After verification of these analysis, the design was accepted, and is currently being produced in all Ford F-150 models.
-                <br><br>
-                The second part of this project consists of a fairly similar process, just regarding a different assembly. The high beam mounting bracket was also determined to be a location where polycarbonate would be desirable. I performed a thermal, structural, and vibrational analysis similar to before. However, the intensity of the high-beam was substantially greater than the fog lamp, so considerable design changes were necessary. Using CFD, I was able to successfully redesign the bracket to better shed heat in order to meet the desired criteria. However, this added additional weight. To combat this, I performed a topological optimization to identify locations of unnecessary mass. Using this analysis, the design was changed in order to satisfy the vibrational and thermal requirements, while as reducing weight. The results were reported to Ford. This part of the project is still currently on-going. 
-                <br><br>
-                Click <u><a href="portfolio.html">here</a></u> to return to the portfolio page.
-            </font></p>
+              <center><img src="img/Ford_headlamp.jpg">
+              <br><p class="margin-bottom-40"><font size="3">Injection Molded Foglamp</font></p></center>
           </div>
         </section> 
       </article>
@@ -113,7 +107,7 @@
       <!-- Contact -->
         <a name="contact"></a>
       <div class="background-primary padding text-center">
-        <p class="h1">Contact Me!</p>                                                                        
+        <p class="h1">Contact</p>                                                                        
       </div>
       
       <!-- Main Footer -->

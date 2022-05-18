@@ -40,11 +40,11 @@
                 <li><a href="portfolio.html">Overview</a></li>
                 <li><a>Professional Projects</a>
                   <ul>
-                    <li><a href="CovHeadlamp.html">Covestro Headlamp</a></li>
+                    <li><a href="Vita3U.html">Vita 3U VPX Module</a></li>
+                    <li><a href="Electroplating.html">Electroplating Agitation Device</a></li>
+                    <li><a href="CovHeadlamp.html">Covestro Demo Headlamp</a></li>
                     <li><a href="CovBuick.html">Buick Headlamp</a></li>
-                    <li><a href="CovNasa.html">NASA Space Suit</a></li>
                     <li><a href="CovFord.html">Ford Fog Light</a></li>
-                    <li><a href="ThermalStake.html">Thermal Staking</a></li>
                     <li><a href="Rethink.html">Rethink the Rink</a></li>
                     <li><a href="CovReflector.html">Integrated Reflector</a></li>
                   </ul>
@@ -52,9 +52,8 @@
                 <li><a>Personal Projects</a>
                   <ul>
                     <li><a href="SOAR.html">NASA Student Launch</a></li>
+                    <li><a href="SeniorDesign.html">Argo AI, Capstone</a></li>
                     <li><a href="HPVC.html">ASME HPVC</a></li>
-                    <li><a href="portfolio.html#RC">RC Car</a></li>
-                    <li><a href="CovHeadlamp.html">Argo AI, Capstone</a></li>
                     <li><a href="CFD.html">CFD Pipe Flow</a></li>
                     <li><a href="iphone.html">iPhone Screen Strength</a></li>
                     <li><a href="heat.html">AC Unit Efficiency</a></li>
@@ -65,8 +64,8 @@
             </li>
             <li><a href="index.html#about">About</a></li>
             <li><a href="index.html#featured">Featured Projects</a></li>
-            <li><a href="index.html#skills">Skills</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <!--<li><a href="#skills">Skills</a></li>-->
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -84,23 +83,17 @@
         </header>
         <section class="section background-white" width>
           <div class="line">
-            <h2 class="text-size-40 margin-bottom-30">Background</h2>
+            <h2 class="text-size-40 margin-bottom-30">Details</h2>
             <hr class="break-small background-primary margin-bottom-30">
             <p class="margin-bottom-40"><font size="3">
-             This project was completed in my second co-op rotation at Covestro LLC. Covestro specializes in polymers, and I worked in the business unit tailored specifically to polycarbonates. In this business unit, I worked under the application development team to analyze the viability of polycarbonates within new applications. This project revolved around an integrated reflector. This component is a molded heatsink and reflector for an LED. The design of these components can vary greatly. Typically, substantial research and testing is required to find the optimal design of these components. To ease in this process, I completed CFDs to help predict how to design these parts based on a desired criteria.
+             This project was completed in my second co-op rotation at Covestro LLC. This project revolved around an integrated reflector. This component is a molded heatsink and reflector for an LED. The component removes the necessity for fasteners, and streamlines the production process by molding directly around the LED/reflector. Integrated reflectors were a fairly common product, but the loadcases were often significantly different and required research/testing to find an optimal design. To ease in this process, I completed CFD simulations to help predict how to design these parts based on a desired criteria.
+             <br><br>
+             There are many design variables that affect the performance of the reflector. For example, number of fins, fin length, LED power, and material properties all play a huge role. To streamline the process of selecting the optimal characteristics, I completed hundreds of CFD simluations. These CFDs all had slight variations in design variables. For example, I ran some with number of fins varyiing, but all other variables were held constant. Using this process, I calculated a dataset for each variable. The data was fed through a neural network, which helped to determine the optimal combination based on desired criteria (i.e. max junction temp or power dissipation). To further strengthen the validity, I conducted further CFDs to help fill areas that lacking sufficient data. This process was repeated numerous times. In the end, an internal selector tool was created, which allowed the user to set a desired criteria, and the network would recommend the design. This tool was undergoing initial rollout during my final rotation at Covestro.
             </font></p>
               <hr>
               <h2 class="text-size-40 margin-bottom-30">Pictures</h2>
               <hr class="break-small background-primary margin-bottom-30">
               <p><font size="3">Unfortunately, this project is on-going, so pictures and results are not available to be shared.</font></p><br>
-              <hr>
-              <h2 class="text-size-40 margin-bottom-30">Details</h2>
-            <hr class="break-small background-primary margin-bottom-30">
-            <p class="margin-bottom-40"><font size="3">
-               There are many design variables that affect the performance of the reflector. For example, number of fins, fin length, LED power, and material properties all play a huge role. To streamline the process of selecting the optimal characteristics, I completed hundreds of CFDs. These CFDs all had slight variations in design variables. For example, I ran soome with number of fins held constant, but all other variables were independent. Using this process, I calculated lots of data on various combinations. The data was fed through a neural network, which helped to determine the optimal combination based in desired criteria. To further strengthen the validity, I conducted further CFDs to help fill areas that needed more data. This process was repeated numerous times. In the end, a selector tool was created, which allowed the user to set a desired criteria, and the network would recommend the design.
-                <br><br>
-                Click <u><a href="portfolio.html">here</a></u> to return to the portfolio page.
-            </font></p>
           </div>
         </section> 
       </article>
@@ -111,7 +104,7 @@
       <!-- Contact -->
         <a name="contact"></a>
       <div class="background-primary padding text-center">
-        <p class="h1">Contact Me!</p>                                                                        
+        <p class="h1">Contact</p>                                                                        
       </div>
       
       <!-- Main Footer -->

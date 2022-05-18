@@ -40,11 +40,11 @@
                 <li><a href="portfolio.html">Overview</a></li>
                 <li><a>Professional Projects</a>
                   <ul>
-                    <li><a href="CovHeadlamp.html">Covestro Headlamp</a></li>
+                    <li><a href="Vita3U.html">Vita 3U VPX Module</a></li>
+                    <li><a href="Electroplating.html">Electroplating Agitation Device</a></li>
+                    <li><a href="CovHeadlamp.html">Covestro Demo Headlamp</a></li>
                     <li><a href="CovBuick.html">Buick Headlamp</a></li>
-                    <li><a href="CovNasa.html">NASA Space Suit</a></li>
                     <li><a href="CovFord.html">Ford Fog Light</a></li>
-                    <li><a href="ThermalStake.html">Thermal Staking</a></li>
                     <li><a href="Rethink.html">Rethink the Rink</a></li>
                     <li><a href="CovReflector.html">Integrated Reflector</a></li>
                   </ul>
@@ -52,9 +52,8 @@
                 <li><a>Personal Projects</a>
                   <ul>
                     <li><a href="SOAR.html">NASA Student Launch</a></li>
+                    <li><a href="SeniorDesign.html">Argo AI, Capstone</a></li>
                     <li><a href="HPVC.html">ASME HPVC</a></li>
-                    <li><a href="portfolio.html#RC">RC Car</a></li>
-                    <li><a href="CovHeadlamp.html">Argo AI, Capstone</a></li>
                     <li><a href="CFD.html">CFD Pipe Flow</a></li>
                     <li><a href="iphone.html">iPhone Screen Strength</a></li>
                     <li><a href="heat.html">AC Unit Efficiency</a></li>
@@ -65,8 +64,8 @@
             </li>
             <li><a href="index.html#about">About</a></li>
             <li><a href="index.html#featured">Featured Projects</a></li>
-            <li><a href="index.html#skills">Skills</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <!--<li><a href="#skills">Skills</a></li>-->
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -84,38 +83,30 @@
         </header>
         <section class="section background-white" width>
           <div class="line">
-            <h2 class="text-size-40 margin-bottom-30">Background</h2>
+            <h2 class="text-size-40 margin-bottom-30">Details</h2>
             <hr class="break-small background-primary margin-bottom-30">
             <p class="margin-bottom-40"><font size="3">
-             This project was completed as a part of my Mechanical Measurements 2 course at the University of Pittsburgh. The goal of this project was to determine a test setup and procedure to determine the coefficient of performance of a window AC Unit.
+             This project was completed as a part of my Mechanical Measurements 2 course at the University of Pittsburgh. The goal of this project was to determine a test setup and procedure to determine the coefficient of performance of a window AC Unit. Due to Covid-19, this project consisted only of a report and presentation.
+             <br><br>
+             This project was completed last summer (2020), when it was incredibly hot in Pittsburgh. Most student houses do not have central AC, so many rely on a window AC unit. As such, I decided to create a way of measuring the coefficient of performance, which then could be compared to the manufacturer's given value. I determined two different ways of accomplishing this task.
+             <br><br>
+             The coefficient of performance is defined as the rate of heat flow into the evaporator divided by the work inputed (via electricity). Measuring the electrical input is rather simple with a multimeter. To determine the heat transfer, you could go about it a few ways.
+             <br><br>
+             The first way would be to measure the air properties. You could determine the enthalpies (via temperature and pressure sensors) at both in inlet and exit of the AC unit. You could then determine the mass flow rate using a flow meter. The only nuance to this method is that air carries moisture. This moisture plays a substantial role in the heat transfer, so you would also have to take into account humidity when using this method.
+             <br><br>
+             The second method would be to measure the refrigerant properties. This is slightly more difficult, as you would have to disassemble the AC unit to install the transducers. This method would also be more expensive, as you would have to find sensors that would withstand higher pressures and would not have problems measuring refrigerants.<br><br>
+             To validate these designs, I performed an uncertainty analysis on both. Due to the error in the desired sensors, the airflow method had uncertainty of about 9%, where the refrigerant had about 3.5%. 
+             <br><br>
+             I proposed that given the correct budget, the refrigerant method would be optimal. I also created a test procedure that documents how you might go about actually testing the coefficient of performance once you have set it up. You can find the reports below:
+             <br><br>
+             Click <u><a href="Prelim%20Report.docx">here</a></u> to check out the preliminary report.
+             <br>
+             Click <u><a href="Test%20Procedure.docx">here</a></u> to check out the test procedure.
             </font></p>
               <hr>
               <h2 class="text-size-40 margin-bottom-30">Pictures</h2>
               <hr class="break-small background-primary margin-bottom-30">
               <img src="img/MEMS1042_New.PNG">
-              <hr>
-              <h2 class="text-size-40 margin-bottom-30">Details</h2>
-            <hr class="break-small background-primary margin-bottom-30">
-            <p class="margin-bottom-40"><font size="3">
-                Due to Covid-19, this project consisted only of a report and presentation.
-                <br><br>
-                This project was completed last summer (2020), when it was incredibly hot in Pittsburgh. Most student houses do not have central AC, so many rely on a window AC unit. As such, I decided to create a way of measuring the coefficient of performance, which then could be compared to the manufacturer's given value. I determined two different ways of accomplishing this task.
-                <br><br>
-                The coefficient of performance is defined as the rate of heat flow into the evaporator divided by the work inputed (via electricity). Measuring the electrical input is rather simple with a multimeter. To determine the heat transfer, you could go about it a few ways.
-                <br><br>
-                The first way would be to measure the air properties. You could determine the enthalpies (via temperature and pressure sensors) at both in inlet and exit of the AC unit. You could then determine the mass flow rate using a flow meter. The only nuance to this method is that air carries moisture. This moisture plays a substantial role in the heat transfer, so you would also have to take into account humidity when using this method.
-                <br><br>
-                The second method would be to measure the refrigerant properties. This is slightly more difficult, as you would have to disassemble the AC unit to install the transducers. This method would also be more expensive, as you would have to find sensors that would withstand higher pressures and would not have problems measuring refrigerants.<br><br>
-                To validate these designs, I performed an uncertainty analysis on both. Due to the error in the desired sensors, the airflow method had uncertainty of about 9%, where the refrigerant had about 3.5%. 
-                <br><br>
-                I proposed that given the correct budget, the refrigerant method would be optimal. I also created a test procedure that documents how you might go about actually testing the coefficient of performance once you have set it up. You can find the reports below:
-                <br><br>
-                Click <u><a href="Prelim%20Report.docx">here</a></u> to check out the preliminary report.
-                <br><br>
-                Click <u><a href="Test%20Procedure.docx">here</a></u> to check out the test procedure.
-                <br><br>
-                Click <u><a href="portfolio.html">here</a></u> to return to the portfolio page.
-            </font></p>
           </div>
         </section> 
       </article>
@@ -126,7 +117,7 @@
       <!-- Contact -->
         <a name="contact"></a>
       <div class="background-primary padding text-center">
-        <p class="h1">Contact Me!</p>                                                                        
+        <p class="h1">Contact</p>                                                                        
       </div>
       
       <!-- Main Footer -->

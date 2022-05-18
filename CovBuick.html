@@ -40,11 +40,11 @@
                 <li><a href="portfolio.html">Overview</a></li>
                 <li><a>Professional Projects</a>
                   <ul>
-                    <li><a href="CovHeadlamp.html">Covestro Headlamp</a></li>
+                    <li><a href="Vita3U.html">Vita 3U VPX Module</a></li>
+                    <li><a href="Electroplating.html">Electroplating Agitation Device</a></li>
+                    <li><a href="CovHeadlamp.html">Covestro Demo Headlamp</a></li>
                     <li><a href="CovBuick.html">Buick Headlamp</a></li>
-                    <li><a href="CovNasa.html">NASA Space Suit</a></li>
                     <li><a href="CovFord.html">Ford Fog Light</a></li>
-                    <li><a href="ThermalStake.html">Thermal Staking</a></li>
                     <li><a href="Rethink.html">Rethink the Rink</a></li>
                     <li><a href="CovReflector.html">Integrated Reflector</a></li>
                   </ul>
@@ -52,9 +52,8 @@
                 <li><a>Personal Projects</a>
                   <ul>
                     <li><a href="SOAR.html">NASA Student Launch</a></li>
+                    <li><a href="SeniorDesign.html">Argo AI, Capstone</a></li>
                     <li><a href="HPVC.html">ASME HPVC</a></li>
-                    <li><a href="portfolio.html#RC">RC Car</a></li>
-                    <li><a href="CovHeadlamp.html">Argo AI, Capstone</a></li>
                     <li><a href="CFD.html">CFD Pipe Flow</a></li>
                     <li><a href="iphone.html">iPhone Screen Strength</a></li>
                     <li><a href="heat.html">AC Unit Efficiency</a></li>
@@ -65,8 +64,8 @@
             </li>
             <li><a href="index.html#about">About</a></li>
             <li><a href="index.html#featured">Featured Projects</a></li>
-            <li><a href="index.html#skills">Skills</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <!--<li><a href="#skills">Skills</a></li>-->
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -84,27 +83,21 @@
         </header>
         <section class="section background-white" width>
           <div class="line">
-            <h2 class="text-size-40 margin-bottom-30">Background</h2>
+            <h2 class="text-size-40 margin-bottom-30">Details</h2>
             <hr class="break-small background-primary margin-bottom-30">
             <p class="margin-bottom-40"><font size="3">
-             This project was completed in my third co-op rotation at Covestro LLC. Covestro specializes in polymers, and I worked in the business unit tailored specifically to polycarbonates. In this business unit, I worked under the application development team to analyze the viability of polycarbonates within new applications. For this project, I was responsible for analyzing a headlamp assembly for Buick. The assembly originally contained aluminum as a housing/heatsink. My task was the implement thermally conductive polycarbonate to reduce the weight and cost of the headlamp.
+             This project was completed in my third co-op rotation at Covestro LLC. For this project, I was responsible for analyzing a headlamp assembly for Buick. The assembly originally contained aluminum as a housing/heatsink. My task was the implement thermally conductive polycarbonate to reduce the weight and cost of the headlamp.
+             <br><br>
+             In particular, I worked on the heatsink for the high and low beams. The high-beam contained numerous high power LEDs, so the heatsink needed to draw out a lot of heat. In previous models, this heatsink was manufactured out of aluminum. Thermally conductive polycarbonate has slightly lower conductivity and weight comparatively. As such, replacing the aluminum with polycarbonate would fail to meet the desired thermal criteria. To fix this, I redesigned the heatsink using Solidworks to optimize the performance specifically for polycarbonate. To do so, I rearranged the fin patterns to cater to the lower conductivity. Additionally, I inserted a copper spreader plate to better distribute the heat. After, I analyzed the performance using Autodesk CFD to ensure desired criteria was met. I repeated this process for the low-beam as well.
+             <br><br>
+             In addition to this redesign, I had to consider solar effects. The design of the lens was focusing light into the headlamp, causing excessive heating. I setup a FEA and in-person solar irradiance study to ensure the proposed grade of polycarbonate could handle the solar heating.
+             <br><br>
+             To further verify the design, a vibrational analysis was conducted on the mounting bracket. This bracket was proposed to be manufactured with high-strength polycarbonate. The bracket was mounted to the car-frame via ball-socket joints. A modal analysis was conducted to verify the 1st mode natural frequency. Additionally, a power-spectral-density (PSD) analysis was conducted to calculate probablistic stresses due to "random" road conditions to +/- 3 STD. This ensured the lifespan of the bracket.
             </font></p>
               <hr>
               <h2 class="text-size-40 margin-bottom-30">Pictures</h2>
               <hr class="break-small background-primary margin-bottom-30">
               <p><font size="3">Unfortunately, this project is on-going, so pictures and results are not available to be shared.</font></p>
-              <hr>
-              <h2 class="text-size-40 margin-bottom-30">Details</h2>
-            <hr class="break-small background-primary margin-bottom-30">
-            <p class="margin-bottom-40"><font size="3">
-              For this project, I analyzed the performance of thermally conductive polycarbonate within the headlamp assembly. In particular, I worked on the heatsink for the high and low beams. The high-beam contained numerous high power LEDs, so the heatsink needed to draw out a lot of heat. In previous car-models, this heatsink was manufactured out of aluminum. Thermally conductive polycarbonate has slightly lower conductivity and weight comparatively. As such, simply replacing the aluminum with polycarbonate would fail to meet the desired thermal criteria. To combat this, I redesigned the heatsink using Solidworks to optimize the performance specifically for polycarbonate. To do so, I rearranged the fin patterns to cater to the lower conductivity. Additionally, I inserted a copper plate the better distribute the heat. After, I analyzed the performance using Autodesk CFD to ensure desired criteria was met. I repeated this process for the low-beam as well.
-                <br><br>
-              In addition to this redesign, I had to consider solar effects. The design of the lens was causing excessive heating in headlamp. I setup a FEA and in-person solar irradiance study to ensure the proposed grade of polycarbonate could handle the solar heating.
-                <br><br>
-              To further verify the design, a vibrational analysis was conducted on the mounting bracket. This bracket was proposed to be manufactured with high-strength polycarbonate. The bracket was mounted to the car-frame via ball-socket joints. A modal analysis was conducted to verify the 1st mode natural frequency. Additionally, a power-spectral-density (PSD) analysis was conducted to calculate probablistic stresses due to "random" road conditions to +/- 3 STD. This ensured the lifespan of the bracket.
-                <br><br>
-                Click <u><a href="portfolio.html">here</a></u> to return to the portfolio page.
-            </font></p>
           </div>
         </section> 
       </article>
@@ -115,7 +108,7 @@
       <!-- Contact -->
         <a name="contact"></a>
       <div class="background-primary padding text-center">
-        <p class="h1">Contact Me!</p>                                                                        
+        <p class="h1">Contact</p>                                                                        
       </div>
       
       <!-- Main Footer -->

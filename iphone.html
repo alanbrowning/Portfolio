@@ -40,11 +40,11 @@
                 <li><a href="portfolio.html">Overview</a></li>
                 <li><a>Professional Projects</a>
                   <ul>
-                    <li><a href="CovHeadlamp.html">Covestro Headlamp</a></li>
+                    <li><a href="Vita3U.html">Vita 3U VPX Module</a></li>
+                    <li><a href="Electroplating.html">Electroplating Agitation Device</a></li>
+                    <li><a href="CovHeadlamp.html">Covestro Demo Headlamp</a></li>
                     <li><a href="CovBuick.html">Buick Headlamp</a></li>
-                    <li><a href="CovNasa.html">NASA Space Suit</a></li>
                     <li><a href="CovFord.html">Ford Fog Light</a></li>
-                    <li><a href="ThermalStake.html">Thermal Staking</a></li>
                     <li><a href="Rethink.html">Rethink the Rink</a></li>
                     <li><a href="CovReflector.html">Integrated Reflector</a></li>
                   </ul>
@@ -52,9 +52,8 @@
                 <li><a>Personal Projects</a>
                   <ul>
                     <li><a href="SOAR.html">NASA Student Launch</a></li>
+                    <li><a href="SeniorDesign.html">Argo AI, Capstone</a></li>
                     <li><a href="HPVC.html">ASME HPVC</a></li>
-                    <li><a href="portfolio.html#RC">RC Car</a></li>
-                    <li><a href="CovHeadlamp.html">Argo AI, Capstone</a></li>
                     <li><a href="CFD.html">CFD Pipe Flow</a></li>
                     <li><a href="iphone.html">iPhone Screen Strength</a></li>
                     <li><a href="heat.html">AC Unit Efficiency</a></li>
@@ -65,8 +64,8 @@
             </li>
             <li><a href="index.html#about">About</a></li>
             <li><a href="index.html#featured">Featured Projects</a></li>
-            <li><a href="index.html#skills">Skills</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <!--<li><a href="#skills">Skills</a></li>-->
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -87,32 +86,24 @@
             <h2 class="text-size-40 margin-bottom-30">Background</h2>
             <hr class="break-small background-primary margin-bottom-30">
             <p class="margin-bottom-40"><font size="3">
-             This project was completed as a part of my Mechanical Measurements 1 course at the University of Pittsburgh. The goal of this project was to set up a procedure to test the absolute strength of replacement iPhone screens.
+             This project was completed as a part of my Mechanical Measurements 1 course at the University of Pittsburgh. The goal was to create a test procedure which would measure the breakage strength of replacement iPhone screens. I was able to do so using strain gages, circuitry, and general engineering principles.
+             <br><br>
+             The general driving priniple that I decided to use was beam theory, by treating the iPhone screen as a simply supported beam. To test the actual strength of the screen, I decided to drop metal balls on it from varying heights. By assuming around 70% of the potential energy was absorbed by the beam, I could determine the breakage strength using material properties, and the drop height, Z. The equation is shown below:<br><br>
+             <center><img src="img/Beam_eq.PNG"></center>
+             <br><br>
+             To further strengthen the analysis, you could consider the beam to be a spring, with a constant K. Using the drop height, you can determine the strain of the beam using Hooke's law. Using this method, I could physically record the strain (and stress) within the beam. This would allow me to compare what my predicted strength was from the previous section to the actual stress.
+             <br><br>
+             To measure the data, a DAQ was required to be hooked up to the stain gauges. The gauges gave a change in voltage output, which was then run through a wheatstone bridge, differential amplifier, and a low pass filter. This was to unsure the quality of the data being recorded. My circuit setup is shown below:<br><br>
+             <center><img src="img/Circuit.PNG"></center>
+             <br><br>
+             To further validate the analysis, I completed an uncertainty analysis to determine the possible error within the results. Overall, the project was completed successfully, and required knowledge from many different areas. I had to combine knowledge from circuits, data acquisition, beam theory, statics, and much more. In the end, I detemined that the beam had a breakage strength of around 400 [MPa], which is actually higher than the value specified by the manufacturer (350 [MPa]). 
+             <br><br>
+             Click <u><a href="Browning_SG_Project.docx">here</a></u> to check out the full report.
             </font></p>
               <hr>
               <h2 class="text-size-40 margin-bottom-30">Pictures</h2>
               <hr class="break-small background-primary margin-bottom-30">
-              <img src="img/MEMS1041.PNG">
-              <hr>
-              <h2 class="text-size-40 margin-bottom-30">Details</h2>
-            <hr class="break-small background-primary margin-bottom-30">
-            <p class="margin-bottom-40"><font size="3">
-                This project consisted of both hands-on and computer components. The goal was to create a testing procedure which would measure the breakage strength of replacement iPhone screens. I were able to do so using strain gages, circuitry, and general engineering principles.
-                <br><br>
-                The general driving priniple that I decided to use was beam theory, by treating the iPhone screen as a simply supported beam. To test the actual strength of the screen, I decided to drop metal balls on it from varying heights. By assuming around 70% of the potential energy was absorbed by the beam, I could determine the breakage strength using material properties, and the drop height, Z. The equation is shown below:<br><br>
-                <center><img src="img/Beam_eq.PNG"></center>
-                <br><br>
-                To further strength the analysis, you could consider the beam to be a spring, with a constant K. Using the drop height, you can determine the strain of the beam using Hooke's law. Using this method, I could physically record the strain (and stress) within the beam. This would allow me to compare what my predicted strength was from the previous section to the actual stress.
-                <br><br>
-                To measure the data, a DAQ was required to be hooked up to the stain gages. The gages gave a change in voltage output, which was then run through a wheatstone bridge, differential amplifier, and a low pass filter. This was to unsure the quality of the data being recorded. My circuit setup is shown below:<br><br>
-                <center><img src="img/Circuit.PNG"></center>
-                <br><br>
-                To further validate the analysis, I completed an uncertainty analysis to determine the possible error within the results. Overall, the project was completed successfully, and required knowledge from many different areas. I had to combine knowledge from circuits, data acquisition, beam theory, statics, and much more. In the end, I detemined that the beam had a breakage strength of around 400 [MPa], which is actually higher than the value specified by the manufacturer (350 [MPa]). 
-                <br><br>
-                Click <u><a href="Browning_SG_Project.docx">here</a></u> to check out the full report.
-                <br><br>
-                Click <u><a href="portfolio.html">here</a></u> to return to the portfolio page.
-            </font></p>
+              <center><img src="img/MEMS1041.PNG"></center>
           </div>
         </section> 
       </article>
@@ -123,7 +114,7 @@
       <!-- Contact -->
         <a name="contact"></a>
       <div class="background-primary padding text-center">
-        <p class="h1">Contact Me!</p>                                                                        
+        <p class="h1">Contact</p>                                                                        
       </div>
       
       <!-- Main Footer -->
